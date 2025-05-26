@@ -6,8 +6,8 @@ import sentry_sdk
 from sentry_sdk.integrations.logging import SentryHandler
 
 from pysolace import SolClient
-from shioaji_const.error import TokenError, SystemMaintenance
-from shioaji_const._version import __version__
+from shioaji.error import TokenError, SystemMaintenance
+from shioaji._version import __version__
 
 LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO").upper()
 SENTRY_URI = os.environ.get(

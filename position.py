@@ -1,9 +1,9 @@
 import datetime
 import typing
-from shioaji_const.account import Account
-from shioaji_const.base import BaseModel
-from shioaji_const.constant import Action, Currency, StockOrderCond, TradeType
-from shioaji_const.contracts import FetchStatus
+from shioaji.account import Account
+from shioaji.base import BaseModel
+from shioaji.constant import Action, Currency, StockOrderCond, TradeType
+from shioaji.contracts import FetchStatus
 
 
 class LazyModel(BaseModel):

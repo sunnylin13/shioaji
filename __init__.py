@@ -26,11 +26,11 @@ def inject_libpath():
 # inject_libpath()
 # del inject_libpath
 
-from shioaji_const.shioaji import Shioaji
-from shioaji_const.constant import Exchange
-from shioaji_const.account import Account
+from shioaji.shioaji import Shioaji
+from shioaji.constant import Exchange
+from shioaji.account import Account
 from shioaji.backend.utils import on_quote, on_event
-from shioaji_const.stream_data_type import (
+from shioaji.stream_data_type import (
     TickSTKv1,
     TickFOPv1,
     BidAskSTKv1,

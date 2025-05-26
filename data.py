@@ -3,8 +3,8 @@ import datetime
 from collections import abc
 
 from pydantic import validator
-from shioaji_const.base import BaseModel
-from shioaji_const.constant import ChangeType, TickType, Exchange
+from shioaji.base import BaseModel
+from shioaji.constant import ChangeType, TickType, Exchange
 
 
 class Ticks(BaseModel):

@@ -1,10 +1,10 @@
 import typing
 from datetime import datetime
 
-from shioaji_const.base import BaseModel, StrictInt
-from shioaji_const.account import Account
-from shioaji_const.contracts import Contract
-from shioaji_const.error import BaseError
+from shioaji.base import BaseModel, StrictInt
+from shioaji.account import Account
+from shioaji.contracts import Contract
+from shioaji.error import BaseError
 
 
 class ErrorResponse(BaseModel):

@@ -1,10 +1,10 @@
 import typing
 import datetime
 
-from shioaji_const.base import BaseModel, conint, StrictInt, ConStrAsciiMax6
-from shioaji_const.account import Account
-from shioaji_const.contracts import Contract, ComboContract
-from shioaji_const.constant import (
+from shioaji.base import BaseModel, conint, StrictInt, ConStrAsciiMax6
+from shioaji.account import Account
+from shioaji.contracts import Contract, ComboContract
+from shioaji.constant import (
     Action,
     FuturesPriceType,
     OrderType,

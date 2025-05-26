@@ -1,6 +1,6 @@
 from typing import Optional
-from shioaji_const.account import BaseAccount
-from shioaji_const.base import BaseModel
+from shioaji.account import BaseAccount
+from shioaji.base import BaseModel
 
 
 class TraceLog(BaseModel):

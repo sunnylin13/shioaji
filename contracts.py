@@ -1,7 +1,7 @@
 import time
 import typing
-from shioaji_const.base import BaseModel, StrictInt
-from shioaji_const.constant import (
+from shioaji.base import BaseModel, StrictInt
+from shioaji.constant import (
     Action,
     Currency,
     Exchange,

@@ -1,6 +1,6 @@
 from enum import Enum
 
-from shioaji_const.base import BaseModel
+from shioaji.base import BaseModel
 
 __all__ = ("Account StockAccount FutureAccount").split()
 

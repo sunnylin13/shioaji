@@ -1,5 +1,5 @@
-from shioaji_const.base import BaseProps
-from shioaji_const.constant import *
+from shioaji.base import BaseProps
+from shioaji.constant import *
 
 
 class _action(BaseProps):

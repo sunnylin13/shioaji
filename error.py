@@ -1,6 +1,6 @@
-from shioaji_const.base import BaseModel
-from shioaji_const.account import Account
-from shioaji_const.contracts import Contract
+from shioaji.base import BaseModel
+from shioaji.account import Account
+from shioaji.contracts import Contract
 
 
 class BaseError(Exception):
